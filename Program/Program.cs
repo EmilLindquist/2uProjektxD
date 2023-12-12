@@ -8,7 +8,7 @@ string str = "Result of d is = ";
 
 Console.WriteLine("x = " + x + " and y = " + y + " and x + y = " + z);
 Console.WriteLine(str + d);
-*/
+
 
 bool isFour = true;
 int x = 4;
@@ -19,8 +19,4 @@ string gamer = "gamer \ngamer";
 Console.WriteLine(gamer);
 
 Console.WriteLine("give me an input: ");
-double d = checked;
-{
-    ConvertToDouble.(Console.Readline());
-}
-Console.WriteLine(d);
+*/
