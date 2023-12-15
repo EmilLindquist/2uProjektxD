@@ -2,7 +2,7 @@
 public class Exercises
 {
     // This is the main method where the program execution starts
-    public static void Main()
+    public static void Test()
     {
         // Number thingy exercises
        /* Console.WriteLine("Hello");
@@ -120,10 +120,12 @@ public class Exercises
         Console.WriteLine("{0} {0}",x);
         Console.WriteLine("{0}{0}{0}",x); */
 
+        // Celcius to kelvin and farenheit
+        
         Console.Write("Give me a degree: ");
         int celcius = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Kelvin = {0}", celcius + 273);
-        Console.WriteLine("Farenheit = {0}", celcius * 18 / 10 + 32);
+        Console.WriteLine("Farenheit = {0}", celcius * 18 / 10 + 32); 
     }
 }
